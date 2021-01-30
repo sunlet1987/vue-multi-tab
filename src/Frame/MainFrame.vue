@@ -40,7 +40,7 @@
       <!--顶部栏 右侧-->
       <div class="dsf">
         <!--客户公司名称-->
-        <div class="projectName">客户公司名称</div>
+        <div class="projectName">武当山</div>
         <!--用户信息-->
         <div class="userInfoWrap">
           <div class="userInfo">
@@ -53,7 +53,7 @@
               <el-dropdown-menu slot="dropdown">
                 <el-dropdown-item >修改密码</el-dropdown-item>
                 <el-dropdown-item >基本信息</el-dropdown-item>
-                <el-dropdown-item >手机号绑定/解绑</el-dropdown-item>
+                <el-dropdown-item >手机号</el-dropdown-item>
                 <el-dropdown-item >操作日志</el-dropdown-item>
                 <el-dropdown-item >退出系统</el-dropdown-item>
               </el-dropdown-menu>
@@ -354,8 +354,6 @@ export default {
 
   /*顶部栏*/
   .topWrap {
-    width: 100%;
-    height: 64px;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;

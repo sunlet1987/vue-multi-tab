@@ -12,6 +12,7 @@ input[validateevent='true']{box-shadow: none;}
 
 /*菜单边框*/
 .el-menu{ border:none!important;}
+
 /*菜单背景*/
 .el-menu {
   background: #071526 !important;
